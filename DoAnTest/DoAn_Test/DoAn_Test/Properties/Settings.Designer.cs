@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DoAnTest.Properties
+namespace DoAn_Test.Properties
 {
 
 
