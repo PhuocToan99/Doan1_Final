@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.pnScore = new System.Windows.Forms.Panel();
+            this.lbID = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.btnFind = new System.Windows.Forms.Button();
+            this.btnShow = new System.Windows.Forms.Button();
             this.lbLiterature = new System.Windows.Forms.Label();
             this.lbEnglish = new System.Windows.Forms.Label();
             this.lbMath = new System.Windows.Forms.Label();
@@ -40,10 +44,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtShow = new System.Windows.Forms.TextBox();
-            this.btnShow = new System.Windows.Forms.Button();
-            this.btnFind = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.lbID = new System.Windows.Forms.Label();
             this.pnScore.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,6 +68,47 @@
             this.pnScore.Name = "pnScore";
             this.pnScore.Size = new System.Drawing.Size(802, 393);
             this.pnScore.TabIndex = 1;
+            // 
+            // lbID
+            // 
+            this.lbID.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbID.Location = new System.Drawing.Point(568, 123);
+            this.lbID.Name = "lbID";
+            this.lbID.Size = new System.Drawing.Size(138, 16);
+            this.lbID.TabIndex = 29;
+            this.lbID.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label7
+            // 
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(428, 123);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(94, 16);
+            this.label7.TabIndex = 28;
+            this.label7.Text = "ID";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // btnFind
+            // 
+            this.btnFind.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFind.Location = new System.Drawing.Point(508, 331);
+            this.btnFind.Name = "btnFind";
+            this.btnFind.Size = new System.Drawing.Size(123, 32);
+            this.btnFind.TabIndex = 27;
+            this.btnFind.Text = "Tìm kiếm";
+            this.btnFind.UseVisualStyleBackColor = true;
+            this.btnFind.Click += new System.EventHandler(this.BtnFind_Click);
+            // 
+            // btnShow
+            // 
+            this.btnShow.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnShow.Location = new System.Drawing.Point(89, 331);
+            this.btnShow.Name = "btnShow";
+            this.btnShow.Size = new System.Drawing.Size(158, 32);
+            this.btnShow.TabIndex = 26;
+            this.btnShow.Text = "Xem thông tin";
+            this.btnShow.UseVisualStyleBackColor = true;
+            this.btnShow.Click += new System.EventHandler(this.Button1_Click);
             // 
             // lbLiterature
             // 
@@ -172,47 +213,6 @@
             this.txtShow.Size = new System.Drawing.Size(258, 260);
             this.txtShow.TabIndex = 13;
             // 
-            // btnShow
-            // 
-            this.btnShow.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnShow.Location = new System.Drawing.Point(89, 331);
-            this.btnShow.Name = "btnShow";
-            this.btnShow.Size = new System.Drawing.Size(158, 32);
-            this.btnShow.TabIndex = 26;
-            this.btnShow.Text = "Xem thông tin";
-            this.btnShow.UseVisualStyleBackColor = true;
-            this.btnShow.Click += new System.EventHandler(this.Button1_Click);
-            // 
-            // btnFind
-            // 
-            this.btnFind.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFind.Location = new System.Drawing.Point(508, 331);
-            this.btnFind.Name = "btnFind";
-            this.btnFind.Size = new System.Drawing.Size(123, 32);
-            this.btnFind.TabIndex = 27;
-            this.btnFind.Text = "Tìm kiếm";
-            this.btnFind.UseVisualStyleBackColor = true;
-            this.btnFind.Click += new System.EventHandler(this.BtnFind_Click);
-            // 
-            // label7
-            // 
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(428, 123);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(94, 16);
-            this.label7.TabIndex = 28;
-            this.label7.Text = "ID";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lbID
-            // 
-            this.lbID.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbID.Location = new System.Drawing.Point(568, 123);
-            this.lbID.Name = "lbID";
-            this.lbID.Size = new System.Drawing.Size(138, 16);
-            this.lbID.TabIndex = 29;
-            this.lbID.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // frmScore
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -221,6 +221,7 @@
             this.Controls.Add(this.pnScore);
             this.Name = "frmScore";
             this.Text = "Điểm_số";
+            this.Load += new System.EventHandler(this.FrmScore_Load_1);
             this.pnScore.ResumeLayout(false);
             this.pnScore.PerformLayout();
             this.ResumeLayout(false);

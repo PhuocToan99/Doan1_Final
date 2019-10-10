@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.pnStudent = new System.Windows.Forms.Panel();
+            this.btnShow = new System.Windows.Forms.Button();
+            this.lbBirthDate = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.btnFind = new System.Windows.Forms.Button();
             this.lbName = new System.Windows.Forms.Label();
             this.lbType = new System.Windows.Forms.Label();
             this.lbSex = new System.Windows.Forms.Label();
@@ -42,10 +46,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtShow = new System.Windows.Forms.TextBox();
-            this.btnFind = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
-            this.lbBirthDate = new System.Windows.Forms.Label();
-            this.btnShow = new System.Windows.Forms.Button();
             this.pnStudent.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,6 +72,47 @@
             this.pnStudent.Name = "pnStudent";
             this.pnStudent.Size = new System.Drawing.Size(802, 471);
             this.pnStudent.TabIndex = 0;
+            // 
+            // btnShow
+            // 
+            this.btnShow.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnShow.Location = new System.Drawing.Point(135, 426);
+            this.btnShow.Name = "btnShow";
+            this.btnShow.Size = new System.Drawing.Size(158, 32);
+            this.btnShow.TabIndex = 29;
+            this.btnShow.Text = "Xem thông tin";
+            this.btnShow.UseVisualStyleBackColor = true;
+            this.btnShow.Click += new System.EventHandler(this.BtnShow_Click);
+            // 
+            // lbBirthDate
+            // 
+            this.lbBirthDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbBirthDate.Location = new System.Drawing.Point(568, 276);
+            this.lbBirthDate.Name = "lbBirthDate";
+            this.lbBirthDate.Size = new System.Drawing.Size(138, 16);
+            this.lbBirthDate.TabIndex = 28;
+            this.lbBirthDate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label8
+            // 
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(384, 276);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(138, 16);
+            this.label8.TabIndex = 27;
+            this.label8.Text = "Ngày sinh";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // btnFind
+            // 
+            this.btnFind.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFind.Location = new System.Drawing.Point(505, 379);
+            this.btnFind.Name = "btnFind";
+            this.btnFind.Size = new System.Drawing.Size(100, 35);
+            this.btnFind.TabIndex = 26;
+            this.btnFind.Text = "Tra cứu";
+            this.btnFind.UseVisualStyleBackColor = true;
+            this.btnFind.Click += new System.EventHandler(this.BtnFind_Click);
             // 
             // lbName
             // 
@@ -195,47 +236,6 @@
             this.txtShow.Size = new System.Drawing.Size(277, 322);
             this.txtShow.TabIndex = 13;
             // 
-            // btnFind
-            // 
-            this.btnFind.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFind.Location = new System.Drawing.Point(505, 379);
-            this.btnFind.Name = "btnFind";
-            this.btnFind.Size = new System.Drawing.Size(100, 35);
-            this.btnFind.TabIndex = 26;
-            this.btnFind.Text = "Tra cứu";
-            this.btnFind.UseVisualStyleBackColor = true;
-            this.btnFind.Click += new System.EventHandler(this.BtnFind_Click);
-            // 
-            // label8
-            // 
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(384, 276);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(138, 16);
-            this.label8.TabIndex = 27;
-            this.label8.Text = "Ngày sinh";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lbBirthDate
-            // 
-            this.lbBirthDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbBirthDate.Location = new System.Drawing.Point(568, 276);
-            this.lbBirthDate.Name = "lbBirthDate";
-            this.lbBirthDate.Size = new System.Drawing.Size(138, 16);
-            this.lbBirthDate.TabIndex = 28;
-            this.lbBirthDate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btnShow
-            // 
-            this.btnShow.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnShow.Location = new System.Drawing.Point(135, 426);
-            this.btnShow.Name = "btnShow";
-            this.btnShow.Size = new System.Drawing.Size(158, 32);
-            this.btnShow.TabIndex = 29;
-            this.btnShow.Text = "Xem thông tin";
-            this.btnShow.UseVisualStyleBackColor = true;
-            this.btnShow.Click += new System.EventHandler(this.BtnShow_Click);
-            // 
             // frmStudent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -244,6 +244,7 @@
             this.Controls.Add(this.pnStudent);
             this.Name = "frmStudent";
             this.Text = "Thông_tin_sinh_viên";
+            this.Load += new System.EventHandler(this.FrmStudent_Load);
             this.pnStudent.ResumeLayout(false);
             this.pnStudent.PerformLayout();
             this.ResumeLayout(false);
