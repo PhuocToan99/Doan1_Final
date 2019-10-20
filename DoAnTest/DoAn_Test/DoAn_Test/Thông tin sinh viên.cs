@@ -188,7 +188,5 @@ namespace DoAn_Test
                 MessageBox.Show(ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-       
     }
 }

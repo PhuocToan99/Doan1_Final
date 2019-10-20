@@ -28,7 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmScore));
             this.pnScore = new System.Windows.Forms.Panel();
+            this.rdbStudentRankList = new System.Windows.Forms.RadioButton();
+            this.rbFull = new System.Windows.Forms.RadioButton();
+            this.label9 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.lbID = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.btnFind = new System.Windows.Forms.Button();
@@ -44,11 +49,17 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtShow = new System.Windows.Forms.TextBox();
+            this.rdbStudentFail = new System.Windows.Forms.RadioButton();
             this.pnScore.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnScore
             // 
+            this.pnScore.Controls.Add(this.rdbStudentFail);
+            this.pnScore.Controls.Add(this.rdbStudentRankList);
+            this.pnScore.Controls.Add(this.rbFull);
+            this.pnScore.Controls.Add(this.label9);
+            this.pnScore.Controls.Add(this.button1);
             this.pnScore.Controls.Add(this.lbID);
             this.pnScore.Controls.Add(this.label7);
             this.pnScore.Controls.Add(this.btnFind);
@@ -66,8 +77,52 @@
             this.pnScore.Controls.Add(this.txtShow);
             this.pnScore.Location = new System.Drawing.Point(-1, -1);
             this.pnScore.Name = "pnScore";
-            this.pnScore.Size = new System.Drawing.Size(802, 393);
+            this.pnScore.Size = new System.Drawing.Size(746, 496);
             this.pnScore.TabIndex = 1;
+            // 
+            // rdbStudentRankList
+            // 
+            this.rdbStudentRankList.AutoSize = true;
+            this.rdbStudentRankList.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbStudentRankList.Location = new System.Drawing.Point(289, 410);
+            this.rdbStudentRankList.Name = "rdbStudentRankList";
+            this.rdbStudentRankList.Size = new System.Drawing.Size(187, 17);
+            this.rdbStudentRankList.TabIndex = 34;
+            this.rdbStudentRankList.TabStop = true;
+            this.rdbStudentRankList.Text = "Danh sách học sinh khá giỏi";
+            this.rdbStudentRankList.UseVisualStyleBackColor = true;
+            // 
+            // rbFull
+            // 
+            this.rbFull.AutoSize = true;
+            this.rbFull.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbFull.Location = new System.Drawing.Point(289, 380);
+            this.rbFull.Name = "rbFull";
+            this.rbFull.Size = new System.Drawing.Size(183, 17);
+            this.rbFull.TabIndex = 33;
+            this.rbFull.TabStop = true;
+            this.rbFull.Text = "Xem tổng điểm và xếp hạng";
+            this.rbFull.UseVisualStyleBackColor = true;
+            // 
+            // label9
+            // 
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(13, 470);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(173, 16);
+            this.label9.TabIndex = 32;
+            this.label9.Text = "Tra cứu theo kết quả thi";
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(66, 380);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 74);
+            this.button1.TabIndex = 31;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click_1);
             // 
             // lbID
             // 
@@ -90,7 +145,7 @@
             // 
             // btnFind
             // 
-            this.btnFind.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFind.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFind.Location = new System.Drawing.Point(508, 331);
             this.btnFind.Name = "btnFind";
             this.btnFind.Size = new System.Drawing.Size(123, 32);
@@ -213,11 +268,23 @@
             this.txtShow.Size = new System.Drawing.Size(258, 260);
             this.txtShow.TabIndex = 13;
             // 
+            // rdbStudentFail
+            // 
+            this.rdbStudentFail.AutoSize = true;
+            this.rdbStudentFail.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbStudentFail.Location = new System.Drawing.Point(289, 437);
+            this.rdbStudentFail.Name = "rdbStudentFail";
+            this.rdbStudentFail.Size = new System.Drawing.Size(186, 17);
+            this.rdbStudentFail.TabIndex = 35;
+            this.rdbStudentFail.TabStop = true;
+            this.rdbStudentFail.Text = "Danh sách học sinh thi trượt";
+            this.rdbStudentFail.UseVisualStyleBackColor = true;
+            // 
             // frmScore
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 391);
+            this.ClientSize = new System.Drawing.Size(742, 494);
             this.Controls.Add(this.pnScore);
             this.Name = "frmScore";
             this.Text = "Điểm_số";
@@ -246,5 +313,10 @@
         private System.Windows.Forms.Button btnFind;
         private System.Windows.Forms.Label lbID;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.RadioButton rbFull;
+        private System.Windows.Forms.RadioButton rdbStudentRankList;
+        private System.Windows.Forms.RadioButton rdbStudentFail;
     }
 }

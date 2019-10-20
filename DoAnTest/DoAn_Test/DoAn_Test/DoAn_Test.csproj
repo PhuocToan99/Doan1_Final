@@ -46,12 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Danh sách Trượt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Danh sách Trượt.Designer.cs">
+      <DependentUpon>Danh sách Trượt.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmStudentRankList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStudentRankList.Designer.cs">
+      <DependentUpon>frmStudentRankList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LinkListFullInfo.cs" />
     <Compile Include="LinkListScore.cs" />
     <Compile Include="LinkListStudent.cs" />
     <Compile Include="Program.cs" />
@@ -64,14 +77,26 @@
     <Compile Include="Thông tin sinh viên.Designer.cs">
       <DependentUpon>Thông tin sinh viên.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tổng Điểm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tổng Điểm.Designer.cs">
+      <DependentUpon>Tổng Điểm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Điểm số.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Điểm số.Designer.cs">
       <DependentUpon>Điểm số.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Danh sách Trượt.resx">
+      <DependentUpon>Danh sách Trượt.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStudentRankList.resx">
+      <DependentUpon>frmStudentRankList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -84,6 +109,9 @@
     </Compile>
     <EmbeddedResource Include="Thông tin sinh viên.resx">
       <DependentUpon>Thông tin sinh viên.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tổng Điểm.resx">
+      <DependentUpon>Tổng Điểm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Điểm số.resx">
       <DependentUpon>Điểm số.cs</DependentUpon>

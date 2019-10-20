@@ -160,6 +160,25 @@ namespace DoAn_Test
             if (p == null) MessageBox.Show("Error,please check input", "Error", MessageBoxButtons.RetryCancel, MessageBoxIcon.Warning);
         }
 
-       
+        private void Button1_Click_1(object sender, EventArgs e)
+        {
+            //if ()
+            //    MessageBox.Show("Plesase choose option", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            if(rbFull.Checked == true)
+            {
+                frmFullInfo frm = new frmFullInfo();
+                frm.Show();
+            }
+            if (rdbStudentRankList.Checked == true)
+            {
+                frmStudentRankList frm = new frmStudentRankList();
+                frm.Show();
+            }
+            if (rdbStudentFail.Checked == true)
+            {
+                frmStudentFail frm = new frmStudentFail();
+                frm.Show();
+            }
+        }
     }
 }
