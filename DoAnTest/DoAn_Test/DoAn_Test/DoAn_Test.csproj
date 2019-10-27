@@ -69,13 +69,17 @@
     <Compile Include="LinkListStudent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Score.cs" />
-    <Compile Include="Student.cs" />
     <Compile Include="Thông tin sinh viên.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Thông tin sinh viên.Designer.cs">
       <DependentUpon>Thông tin sinh viên.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thủ Khoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thủ Khoa.Designer.cs">
+      <DependentUpon>Thủ Khoa.cs</DependentUpon>
     </Compile>
     <Compile Include="Tổng Điểm.cs">
       <SubType>Form</SubType>
@@ -88,6 +92,12 @@
     </Compile>
     <Compile Include="Điểm số.Designer.cs">
       <DependentUpon>Điểm số.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Đối tượng dự thi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Đối tượng dự thi.Designer.cs">
+      <DependentUpon>Đối tượng dự thi.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Danh sách Trượt.resx">
       <DependentUpon>Danh sách Trượt.cs</DependentUpon>
@@ -110,11 +120,17 @@
     <EmbeddedResource Include="Thông tin sinh viên.resx">
       <DependentUpon>Thông tin sinh viên.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Thủ Khoa.resx">
+      <DependentUpon>Thủ Khoa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tổng Điểm.resx">
       <DependentUpon>Tổng Điểm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Điểm số.resx">
       <DependentUpon>Điểm số.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Đối tượng dự thi.resx">
+      <DependentUpon>Đối tượng dự thi.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

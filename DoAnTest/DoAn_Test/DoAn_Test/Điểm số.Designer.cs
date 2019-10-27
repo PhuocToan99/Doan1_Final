@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmScore));
             this.pnScore = new System.Windows.Forms.Panel();
+            this.rdbThukhoa = new System.Windows.Forms.RadioButton();
+            this.rdbStudentFail = new System.Windows.Forms.RadioButton();
             this.rdbStudentRankList = new System.Windows.Forms.RadioButton();
             this.rbFull = new System.Windows.Forms.RadioButton();
             this.label9 = new System.Windows.Forms.Label();
@@ -49,12 +51,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtShow = new System.Windows.Forms.TextBox();
-            this.rdbStudentFail = new System.Windows.Forms.RadioButton();
+            this.rdbType = new System.Windows.Forms.RadioButton();
             this.pnScore.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnScore
             // 
+            this.pnScore.Controls.Add(this.rdbType);
+            this.pnScore.Controls.Add(this.rdbThukhoa);
             this.pnScore.Controls.Add(this.rdbStudentFail);
             this.pnScore.Controls.Add(this.rdbStudentRankList);
             this.pnScore.Controls.Add(this.rbFull);
@@ -79,6 +83,30 @@
             this.pnScore.Name = "pnScore";
             this.pnScore.Size = new System.Drawing.Size(746, 496);
             this.pnScore.TabIndex = 1;
+            // 
+            // rdbThukhoa
+            // 
+            this.rdbThukhoa.AutoSize = true;
+            this.rdbThukhoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbThukhoa.Location = new System.Drawing.Point(289, 466);
+            this.rdbThukhoa.Name = "rdbThukhoa";
+            this.rdbThukhoa.Size = new System.Drawing.Size(157, 17);
+            this.rdbThukhoa.TabIndex = 36;
+            this.rdbThukhoa.TabStop = true;
+            this.rdbThukhoa.Text = "Xem thông tin thủ khoa";
+            this.rdbThukhoa.UseVisualStyleBackColor = true;
+            // 
+            // rdbStudentFail
+            // 
+            this.rdbStudentFail.AutoSize = true;
+            this.rdbStudentFail.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbStudentFail.Location = new System.Drawing.Point(289, 437);
+            this.rdbStudentFail.Name = "rdbStudentFail";
+            this.rdbStudentFail.Size = new System.Drawing.Size(186, 17);
+            this.rdbStudentFail.TabIndex = 35;
+            this.rdbStudentFail.TabStop = true;
+            this.rdbStudentFail.Text = "Danh sách học sinh thi trượt";
+            this.rdbStudentFail.UseVisualStyleBackColor = true;
             // 
             // rdbStudentRankList
             // 
@@ -268,17 +296,17 @@
             this.txtShow.Size = new System.Drawing.Size(258, 260);
             this.txtShow.TabIndex = 13;
             // 
-            // rdbStudentFail
+            // rdbType
             // 
-            this.rdbStudentFail.AutoSize = true;
-            this.rdbStudentFail.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbStudentFail.Location = new System.Drawing.Point(289, 437);
-            this.rdbStudentFail.Name = "rdbStudentFail";
-            this.rdbStudentFail.Size = new System.Drawing.Size(186, 17);
-            this.rdbStudentFail.TabIndex = 35;
-            this.rdbStudentFail.TabStop = true;
-            this.rdbStudentFail.Text = "Danh sách học sinh thi trượt";
-            this.rdbStudentFail.UseVisualStyleBackColor = true;
+            this.rdbType.AutoSize = true;
+            this.rdbType.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbType.Location = new System.Drawing.Point(516, 380);
+            this.rdbType.Name = "rdbType";
+            this.rdbType.Size = new System.Drawing.Size(209, 17);
+            this.rdbType.TabIndex = 37;
+            this.rdbType.TabStop = true;
+            this.rdbType.Text = "Danh sách theo đối tượng dư thi";
+            this.rdbType.UseVisualStyleBackColor = true;
             // 
             // frmScore
             // 
@@ -318,5 +346,7 @@
         private System.Windows.Forms.RadioButton rbFull;
         private System.Windows.Forms.RadioButton rdbStudentRankList;
         private System.Windows.Forms.RadioButton rdbStudentFail;
+        private System.Windows.Forms.RadioButton rdbThukhoa;
+        private System.Windows.Forms.RadioButton rdbType;
     }
 }

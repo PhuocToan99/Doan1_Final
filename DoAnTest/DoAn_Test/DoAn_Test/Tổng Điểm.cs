@@ -42,7 +42,8 @@ namespace DoAn_Test
                     {
                         lbSex.Text = "Nữ";
                     }
-                    lbAge.Text = p.age.ToString();
+                    string date = string.Format("{0:dd/MM/yyyy}", p.birthdate);
+                    lbAge.Text = date;
                     lbType.Text = p.type.ToString();
                     lbMath.Text = p.mathScore.ToString();
                     lbLiterature.Text = p.literatureScore.ToString();

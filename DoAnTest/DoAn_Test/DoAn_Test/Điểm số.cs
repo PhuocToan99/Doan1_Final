@@ -179,6 +179,16 @@ namespace DoAn_Test
                 frmStudentFail frm = new frmStudentFail();
                 frm.Show();
             }
+            if (rdbThukhoa.Checked == true)
+            {
+                frmThủ_Khoa frm = new frmThủ_Khoa();
+                frm.Show();
+            }
+            if (rdbType.Checked == true)
+            {
+                frmType frm = new frmType();
+                frm.Show();
+            }
         }
     }
 }
