@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,11 +18,11 @@ namespace DoAn_Test
             InitializeComponent();
         }
         LinkListFullInfo F = null;
-
+        List<string> datas = new List<string>();
         private void FrmFullInfo_Load(object sender, EventArgs e)
         {
             LinkListFullInfo temp = new LinkListFullInfo();
-           F=temp.loadfullInfo(F);
+            F=temp.loadfullInfo(F);
         }
 
         private void BtnFind_Click(object sender, EventArgs e)
@@ -34,16 +35,20 @@ namespace DoAn_Test
                 {
                     lbLastName.Text = p.lastName;
                     lbName.Text = p.name;
-                    if (p.sex == true)
-                    {
-                        lbSex.Text = "Nam";
-                    }
-                    else
-                    {
-                        lbSex.Text = "Nữ";
-                    }
+                    //if (p.sex == true)
+                    //{
+                    //    lbSex.Text = "Nam";
+                    //}
+                    //else
+                    //{
+                    //    lbSex.Text = "Nữ";
+                    //}
+                    lbSex.Text = p.sex;
                     string date = string.Format("{0:dd/MM/yyyy}", p.birthdate);
-                    lbAge.Text = date;
+                    int age;
+                    DateTime temp = DateTime.Now;
+                    age = temp.Year - p.birthdate.Year;
+                    lbAge.Text = Convert.ToString(age);
                     lbType.Text = p.type.ToString();
                     lbMath.Text = p.mathScore.ToString();
                     lbLiterature.Text = p.literatureScore.ToString();
@@ -57,5 +62,6 @@ namespace DoAn_Test
             }
             if (p == null) MessageBox.Show("Error,please check input", "Error", MessageBoxButtons.RetryCancel, MessageBoxIcon.Warning);
         }
+       
     }
 }

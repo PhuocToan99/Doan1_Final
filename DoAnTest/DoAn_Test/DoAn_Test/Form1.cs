@@ -31,6 +31,18 @@ namespace DoAn_Test
             frmScore frm = new frmScore();
             frm.Show();
         }
+
+        private void BtnAdd_Click(object sender, EventArgs e)
+        {
+            frmAdd frm = new frmAdd();
+            frm.Show();
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            frmDelete frm = new frmDelete();
+            frm.Show();
+        }
     }
   
 }

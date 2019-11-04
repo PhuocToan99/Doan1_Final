@@ -33,7 +33,8 @@ namespace DoAn_Test
             string lastName, name;
             Boolean sex;
             DateTime birthDate;
-            Boolean re, flag;
+            String re;
+            int flag;
             for (int i = 0; i < lines.Count; i++)
             {
                 if (i >= 12) datas.Add(lines[i]);
@@ -48,15 +49,15 @@ namespace DoAn_Test
                 ID = Convert.ToInt32(data.Substring(0, 11));
                 lastName = data.Substring(11, 15);
                 name = data.Substring(26, 7);
-                re = Boolean.TryParse(data.Substring(34, 2), out flag);
-                sex = re;
+                re = data.Substring(34, 2);
+                flag = Convert.ToInt32(re);
                 //char[] date = data.Substring(35, 10).ToCharArray();
                 string date = data.Substring(35, 10);
 
                 birthDate = DateTime.Parse(date);
                 //student.birthDate = entries[i + 6];
                 type = Convert.ToInt32(data.Substring(46, 1));
-                addStudent(p, ID, lastName, name, sex, birthDate, type);
+                addStudent(p, ID, lastName, name, flag, birthDate, type);
                 add(ref L, p);
                 //students.Add(student);
 
@@ -64,12 +65,21 @@ namespace DoAn_Test
             return L;
         }
 
-        private Boolean addStudent(LinkListStudent p, int ID, string lastName, string name, Boolean sex, DateTime birthDate, int type)
+        private Boolean addStudent(LinkListStudent p, int ID, string lastName, string name, int sex, DateTime birthDate, int type)
         {
             p.ID = ID;
             p.lastName = lastName;
             p.name = name;
-            p.sex = sex;
+            string gender = String.Empty;
+            if (sex == 1)
+            {
+                gender = "Nữ";
+            }
+            else
+            {
+                gender = "Nam";
+            }
+            p.sex = gender;
             p.birthDate = birthDate;
             p.type = type;
             return true;
@@ -94,14 +104,15 @@ namespace DoAn_Test
                 {
                     lbLastName.Text = p.lastName;
                     lbName.Text = p.name;
-                    if (p.sex == true)
-                    {
-                        lbSex.Text = "Nam";
-                    }
-                    else
-                    {
-                        lbSex.Text = "Nữ";
-                    }
+                    //if (p.sex == true)
+                    //{
+                    //    lbSex.Text = "Nam";
+                    //}
+                    //else
+                    //{
+                    //    lbSex.Text = "Nữ";
+                    //}
+                    lbSex.Text = p.sex;
                     string date = string.Format("{0:dd/MM/yyyy}", p.birthDate);
                     lbBirthDate.Text = date;
                     lbType.Text = p.type.ToString();

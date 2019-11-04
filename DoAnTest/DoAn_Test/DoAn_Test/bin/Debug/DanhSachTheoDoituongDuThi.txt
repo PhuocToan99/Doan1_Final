@@ -1,0 +1,53 @@
+26	Huynh Bach     	Cuc    	False  21/09/1980	  10	8.5	9	28.5	 Giỏi	 2
+29	Tran My        	Dung   	False  21/09/1980	  6	5	6	18	 Trung Bình	 2
+30	Truong Minh    	Thang  	False  21/09/1980	  6	6.5	6	19.5	 Trung Bình	 2
+32	Huynh Thanh    	Nga    	False  21/09/1980	  6	6	4.5	17.5	 Trung Bình	 2
+35	Lam Ngoc       	Quan   	False  21/09/1980	  10	8	9	28	 Giỏi	 2
+37	Vuong Kim      	Anh    	False  21/09/1980	  7	5	5.5	18.5	 Trung Bình	 2
+40	Pham Thi       	Thu    	False  21/09/1980	  4	4	4	13	 Trượt	 2
+42	Doan Thuy      	Trang  	False  21/09/1980	  5.5	6.5	8	21	 Khá	 2
+43	Hoang Van      	Hoa    	False  21/09/1980	  9	7	10	27	 Giỏi	 2
+45	Du Thi Lieu    	Dung   	False  21/09/1980	  8	5	7	21	 Khá	 2
+46	Vu Kieu        	Oanh   	False  21/09/1980	  5.5	5	4	15.5	 Trung Bình	 2
+47	Nguyen Trong   	Nghiep 	False  21/09/1980	  9.5	8	10	28.5	 Giỏi	 2
+50	Ly Cong        	Duy    	False  21/09/1980	  10	8.5	9.5	29	 Giỏi	 2
+51	Le Thi         	Ly     	False  21/09/1980	  8	6	9	24	 Giỏi	 2
+53	Hoang Thi      	Thuan  	False  21/09/1980	  9	8.5	10	28.5	 Giỏi	 2
+55	Tran Thi       	Phuong 	False  21/09/1980	  7.5	4.5	6	19	 Trung Bình	 2
+56	Nguyen Dong    	Lan    	False  21/09/1980	  7	5.5	8	21.5	 Khá	 2
+58	Diep Thuy      	Phuong 	False  21/09/1980	  4	5.5	4	14.5	 Trượt	 2
+60	Tran Thi       	Phan   	False  21/09/1980	  5.5	6	5.5	18	 Trung Bình	 2
+62	Nguyen Mong    	Kieu   	False  21/09/1980	  6.5	4	5.5	17	 Trung Bình	 2
+64	Nguyen Thi     	Thuy   	False  21/09/1980	  6	5	6	18	 Trung Bình	 2
+82	Tran Tuyet     	Anh    	False  21/09/1980	  8	6	4	19	 Trung Bình	 2
+91	Tran Thuy      	Tien   	False  21/09/1980	  6	5	6.5	18.5	 Trung Bình	 2
+93	Do Thi         	Thao   	False  21/09/1980	  4	5	4	14	 Trượt	 2
+95	Dang Kim       	Anh    	False  21/09/1980	  5	5.5	6	17.5	 Trung Bình	 2
+97	Pham Hong      	Tuyet  	False  21/09/1980	  8	6	7	22	 Khá	 2
+99	Nguyen Thi     	Binh   	False  21/09/1980	  8	7	7	23	 Khá	 2
+100	Tran Van       	Viet   	False  21/09/1980	  6.5	5	3	15.5	 Trung Bình	 2
+102	Ho Cam         	Ly     	False  21/09/1980	  7	6.5	6	20.5	 Trung Bình	 2
+104	Huynh Minh     	Hieu   	False  21/09/1980	  6.5	7	6.5	21	 Khá	 2
+106	Le Hong        	Nhung  	False  21/09/1980	  5	6	6	18	 Trung Bình	 2
+108	Tran Van       	Quang  	False  21/09/1980	  5	5	4.5	15.5	 Trung Bình	 2
+110	Le Thanh       	Khoa   	False  21/09/1980	  5	6.8	5.2	18	 Trung Bình	 2
+111	Nguyen Tan     	Tai    	False  21/09/1980	  8	7	8	24	 Giỏi	 2
+112	Do Thi         	Thuy   	False  21/09/1980	  5.5	5.5	7.5	19.5	 Trung Bình	 2
+113	Vu Van         	An     	False  21/09/1980	  6	3	5	15	 Trung Bình	 2
+115	Bui Van        	Thanh  	False  21/09/1980	  5.5	7	5.5	19	 Trung Bình	 2
+117	Truong Kieu    	Oanh   	False  21/09/1980	  10	9	9.5	29.5	 Giỏi	 2
+120	Nguyen Thi     	Nhung  	False  21/09/1980	  5	6	6	18	 Trung Bình	 2
+121	Nguyen Thi     	Lan    	False  21/09/1980	  10	8.5	9	28.5	 Giỏi	 2
+123	Tran van       	Phuong 	False  21/09/1980	  4	7.5	5.5	18	 Trung Bình	 2
+125	Vo Quoc        	Vuong  	False  21/09/1980	  9	7	8	25	 Giỏi	 2
+128	Vo Kim         	Yen    	False  21/09/1980	  7	4	8	20	 Trung Bình	 2
+129	Tran Van       	Son    	False  21/09/1980	  8	5	5.5	19.5	 Trung Bình	 2
+130	Nguyen Van     	Hai    	False  21/09/1980	  5	5	5	16	 Trung Bình	 2
+132	Pham Lan       	Anh    	False  21/09/1980	  4.5	4.5	6.5	16.5	 Trung Bình	 2
+134	Le Hong        	Hoa    	False  21/09/1980	  10	8	9	28	 Giỏi	 2
+136	Pham Hong      	Chung  	False  21/09/1980	  6	4	5	16	 Trung Bình	 2
+146	Dao Thanh      	Xuan   	False  21/09/1980	  5	6.5	6.5	19	 Trung Bình	 2
+148	Pham Thu       	Han    	False  21/09/1980	  9.5	8.5	9	28	 Giỏi	 2
+150	Nguyen Phuoc   	Lam    	False  21/09/1980	  8	9	6	24	 Giỏi	 2
+152	Le Van         	Dung   	False  21/09/1980	  10	7	7	25	 Giỏi	 2
+154	Nguyen Thanh   	Hao    	False  21/09/1980	  4	5.5	7	17.5	 Trung Bình	 2

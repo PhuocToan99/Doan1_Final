@@ -189,6 +189,13 @@ namespace DoAn_Test
                 frmType frm = new frmType();
                 frm.Show();
             }
+            
+        }
+
+        private void RbtResult_CheckedChanged(object sender, EventArgs e)
+        {
+            frmResult frm = new frmResult();
+            frm.Show();
         }
     }
 }

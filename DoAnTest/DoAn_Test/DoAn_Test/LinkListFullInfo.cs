@@ -11,7 +11,7 @@ namespace DoAn_Test
         public int ID { get; set; }
         public string lastName { get; set; }
         public string name { get; set; }
-        public bool sex { get; set; }
+        public string sex { get; set; }
         //public int age { get; set; }
         public DateTime birthdate { get; set; }
         public double mathScore { get; set; }
@@ -42,7 +42,7 @@ namespace DoAn_Test
             DateTime temp = DateTime.Now;
             int ID, type/*, age*/, dut;
             DateTime birthdate;
-            Boolean sex;
+            string sex;
             string lastName, name, rank;
             double mathScore, literatureScore, englishScore, totalScore, minScore;
             while (S != null && L != null)
@@ -81,7 +81,7 @@ namespace DoAn_Test
             if (min < c) min = c;
             return min;
         }
-        public Boolean addFullInfo(LinkListFullInfo p, int ID, string lastName, string name, Boolean sex, /*int age*/ DateTime birthdate, double mathScore, double literatureScore, double englishScore, double minScore, double totalScore, string rank, int type)
+        public Boolean addFullInfo(LinkListFullInfo p, int ID, string lastName, string name, string sex, /*int age*/ DateTime birthdate, double mathScore, double literatureScore, double englishScore, double minScore, double totalScore, string rank, int type)
         {
             p.ID = ID;
             p.lastName = lastName;
@@ -121,7 +121,7 @@ namespace DoAn_Test
             LinkListFullInfo stkha = null;
             int ID, type/*, age*/, dut;
             DateTime birthdate;
-            Boolean sex;
+            string sex;
             string lastName, name, rank=null;
             double mathScore, literatureScore, englishScore, totalScore, minScore;
             while (S != null && L != null)
@@ -175,7 +175,7 @@ namespace DoAn_Test
             LinkListFullInfo stgioi = null;
             LinkListFullInfo stkha = null;
             int ID, type/*, age*/, dut;
-            Boolean sex;
+            string sex;
             string lastName, name, rank = null;
             Boolean flag = false;
             double mathScore, literatureScore, englishScore, totalScore, minScore;
@@ -322,7 +322,7 @@ namespace DoAn_Test
             string date = string.Format("{0:dd/MM/yyyy}", p.birthdate);
             while (p != null)
             {
-                lines.Add(tab(p.ID.ToString(),3) + tab(p.lastName,15)  + tab(p.name,10) + sex+"  " + tab(date, 12) + "  " + tab(p.mathScore.ToString(),3) + tab(p.literatureScore.ToString(),2) + tab(p.englishScore.ToString(),2) + tab(p.totalScore.ToString(),2) + " " + tab(p.rank,3) + " " + p.type);
+                lines.Add(tab(p.ID.ToString(),3) + tab(p.lastName,15)  + tab(p.name,10) + tab(p.sex,3) + tab(date, 12) + "  " + tab(p.mathScore.ToString(),3) + tab(p.literatureScore.ToString(),2) + tab(p.englishScore.ToString(),2) + tab(p.totalScore.ToString(),2) + " " + tab(p.rank,3) + " " + p.type);
                 p = p.Next;
             }
             return lines;
@@ -339,7 +339,7 @@ namespace DoAn_Test
             L.loadListScore(L);
             DateTime temp = DateTime.Now;
             int ID, type/*, age*/, dut;
-            Boolean sex;
+            string sex;
             string lastName, name, rank = null;
             double mathScore, literatureScore, englishScore, totalScore, minScore;
             DateTime birthdate;
@@ -513,7 +513,7 @@ namespace DoAn_Test
             L.loadListScore(L);
             DateTime temp = DateTime.Now;
             int ID, type1, age, dut;
-            Boolean sex;
+            string sex;
             string lastName, name, rank = null;
             DateTime birthdate;
             double mathScore, literatureScore, englishScore, totalScore, minScore;

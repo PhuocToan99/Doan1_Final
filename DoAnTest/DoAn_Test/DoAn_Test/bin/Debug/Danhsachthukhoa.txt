@@ -1,0 +1,2 @@
+114	Nguyen Van     	Thanh  	Nữ  13/11/1981	  10	10	10	32	 Giỏi	 1
+67	Nguyen Van     	Tam    	Nam  13/11/1981	  10	9	10	32	 Giỏi	 3

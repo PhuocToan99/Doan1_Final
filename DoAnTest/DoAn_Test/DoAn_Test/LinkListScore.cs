@@ -74,5 +74,32 @@ namespace DoAn_Test
                 q.Next = p;
             }
         }
+        public List<string> changesc(LinkListScore F)
+        {
+            List<string> lines = new List<string>();
+            LinkListScore p = F;
+            //string date = string.Format("{0:dd/MM/yyyy}", p.birthDate);
+            while (p != null)
+            {
+
+                lines.Add(tabsc(p.id.ToString(), 3) + tabsc(p.mathScore.ToString(), 2) + tabsc(p.literatureScore.ToString(), 2) + tabsc(p.englishScore.ToString(), 2));
+                p = p.Next;
+            }
+            return lines;
+
+        }
+        public static string tabsc(string s, int w)
+        {
+            //w is the desired width
+            int stringwidth = s.Length;
+            int i;
+            string resultstring = s;
+
+            for (i = 0; i <= (w - stringwidth) / 8; i++)
+            {
+                resultstring = resultstring + "\t";
+            }
+            return resultstring;
+        }
     }
 }

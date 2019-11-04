@@ -27,3 +27,6 @@ C:\Users\darkphantom\Desktop\Doan1_Final\DoAnTest\DoAn_Test\DoAn_Test\obj\Debug\
 C:\Users\darkphantom\Desktop\Doan1_Final\DoAnTest\DoAn_Test\DoAn_Test\obj\Debug\DoAn_Test.frmStudentFail.resources
 C:\Users\darkphantom\Desktop\Doan1_Final\DoAnTest\DoAn_Test\DoAn_Test\obj\Debug\DoAn_Test.frmThủ_Khoa.resources
 C:\Users\darkphantom\Desktop\Doan1_Final\DoAnTest\DoAn_Test\DoAn_Test\obj\Debug\DoAn_Test.frmType.resources
+C:\Users\darkphantom\Desktop\Doan1_Final\DoAnTest\DoAn_Test\DoAn_Test\obj\Debug\DoAn_Test.frmAdd.resources
+C:\Users\darkphantom\Desktop\Doan1_Final\DoAnTest\DoAn_Test\DoAn_Test\obj\Debug\DoAn_Test.frmDelete.resources
+C:\Users\darkphantom\Desktop\Doan1_Final\DoAnTest\DoAn_Test\DoAn_Test\obj\Debug\DoAn_Test.frmResult.resources

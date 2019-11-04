@@ -1,0 +1,702 @@
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:1					So bao danh:2					So bao danh:3					
+Anh:Nguyen Viet    Hong   			Chi:Nguyen Hong    Lanh   			Chi:Nguyen Minh    Quang  
+Toan:8					Toan:6.5						Toan:7.5
+Van:5						Van:7						Van:6.5						
+Anh van:8					Anh van:5					Anh van:4					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:3					So bao danh:4					So bao danh:5					
+Chi:Nguyen Minh    Quang  			Chi:Dinh Thi       Tam    			Anh:Nguyen Hoai    Anh    
+Toan:7.5					Toan:5						Toan:6.5
+Van:6.5						Van:8.5						Van:6						
+Anh van:4					Anh van:5.5					Anh van:6					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:5					So bao danh:6					So bao danh:7					
+Anh:Nguyen Hoai    Anh    			Anh:Dang Bich      Thuy   			Chi:Hoang Thanh    Trang  
+Toan:6.5					Toan:10						Toan:7	
+Van:6						Van:9						Van:10						
+Anh van:6					Anh van:9					Anh van:6.5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:7					So bao danh:8					So bao danh:9					
+Chi:Hoang Thanh    Trang  			Anh:Tran Cat       Dung   			Chi:Pham Hoai      Bong   
+Toan:7					Toan:10						Toan:10	
+Van:10						Van:8						Van:8.5						
+Anh van:6.5					Anh van:9					Anh van:10					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:9					So bao danh:10					So bao danh:11					
+Chi:Pham Hoai      Bong   			Anh:Tran Minh      Nguyet 			Chi:Ma Thi Hong    Xuan   
+Toan:10					Toan:4.5						Toan:8	
+Van:8.5						Van:4						Van:10						
+Anh van:10					Anh van:4					Anh van:7					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:11					So bao danh:12					So bao danh:13					
+Chi:Ma Thi Hong    Xuan   			Anh:Le Thao        Dung   			Anh:Luu Phuong     Thanh  
+Toan:8					Toan:5						Toan:9	
+Van:10						Van:6.5						Van:6						
+Anh van:7					Anh van:5.5					Anh van:8					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:13					So bao danh:14					So bao danh:15					
+Anh:Luu Phuong     Thanh  			Anh:Phan           Thanh  			Anh:Pham Thu       Thuy   
+Toan:9					Toan:6						Toan:8	
+Van:6						Van:5.5						Van:6.5						
+Anh van:8					Anh van:8					Anh van:7.5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:15					So bao danh:16					So bao danh:17					
+Anh:Pham Thu       Thuy   			Anh:Dang Dinh      Tam    			Anh:Tong Duc       Cuong  
+Toan:8					Toan:4						Toan:5	
+Van:6.5						Van:6						Van:6.5						
+Anh van:7.5					Anh van:5					Anh van:4					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:17					So bao danh:18					So bao danh:19					
+Anh:Tong Duc       Cuong  			Chi:Tran Thu       Nga    			Chi:Tran Thi Thanh Giang  
+Toan:5					Toan:4						Toan:4	
+Van:6.5						Van:6.5						Van:6						
+Anh van:4					Anh van:6					Anh van:6					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:19					So bao danh:20					So bao danh:21					
+Chi:Tran Thi Thanh Giang  			Chi:Truong Thi     My     			Anh:Nguyen Thi     Hoa    
+Toan:4					Toan:5						Toan:10	
+Van:6						Van:7						Van:8						
+Anh van:6					Anh van:7					Anh van:9					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:21					So bao danh:22					So bao danh:23					
+Anh:Nguyen Thi     Hoa    			Anh:Ha Son         Tri    			Anh:Tang My        Hanh   
+Toan:10					Toan:5						Toan:8	
+Van:8						Van:8						Van:6						
+Anh van:9					Anh van:5					Anh van:7					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:23					So bao danh:24					So bao danh:25					
+Anh:Tang My        Hanh   			Anh:Tran Thi       Tam    			Anh:Pham Thi       Lua    
+Toan:8					Toan:7						Toan:5	
+Van:6						Van:5						Van:6						
+Anh van:7					Anh van:7					Anh van:6					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:25					So bao danh:26					So bao danh:27					
+Anh:Pham Thi       Lua    			Anh:Huynh Bach     Cuc    			Anh:Nguyen Thi     Tuyet  
+Toan:5					Toan:10						Toan:8	
+Van:6						Van:8.5						Van:6						
+Anh van:6					Anh van:9					Anh van:9					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:27					So bao danh:28					So bao danh:29					
+Anh:Nguyen Thi     Tuyet  			Anh:Vu Thi         No     			Chi:Tran My        Dung   
+Toan:8					Toan:6						Toan:6	
+Van:6						Van:8						Van:5						
+Anh van:9					Anh van:4					Anh van:6					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:29					So bao danh:30					So bao danh:31					
+Chi:Tran My        Dung   			Anh:Truong Minh    Thang  			Anh:Le Kim         Thoa   
+Toan:6					Toan:6						Toan:7	
+Van:5						Van:6.5						Van:5.5						
+Anh van:6					Anh van:6					Anh van:5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:31					So bao danh:32					So bao danh:33					
+Anh:Le Kim         Thoa   			Anh:Huynh Thanh    Nga    			Anh:Tran Thi       Loan   
+Toan:7					Toan:6						Toan:6.5
+Van:5.5						Van:6						Van:6.5						
+Anh van:5					Anh van:4.5					Anh van:6					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:33					So bao danh:34					So bao danh:35					
+Anh:Tran Thi       Loan   			Chi:Tran Thi       Nhi    			Anh:Lam Ngoc       Quan   
+Toan:6.5					Toan:5						Toan:10	
+Van:6.5						Van:8						Van:8						
+Anh van:6					Anh van:5					Anh van:9					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:35					So bao danh:36					So bao danh:37					
+Anh:Lam Ngoc       Quan   			Anh:Nguyen Ngoc    Bich   			Chi:Vuong Kim      Anh    
+Toan:10					Toan:6						Toan:7	
+Van:8						Van:6						Van:5						
+Anh van:9					Anh van:6.5					Anh van:5.5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:37					So bao danh:38					So bao danh:39					
+Chi:Vuong Kim      Anh    			Chi:Nguyen Thu     Van    			Chi:Phan Mai       Phuong 
+Toan:7					Toan:6.5						Toan:8	
+Van:5						Van:5.5						Van:6						
+Anh van:5.5					Anh van:5					Anh van:8					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:39					So bao danh:40					So bao danh:41					
+Chi:Phan Mai       Phuong 			Anh:Pham Thi       Thu    			Anh:Nguyen Thi     Dung   
+Toan:8					Toan:4						Toan:5	
+Van:6						Van:4						Van:7						
+Anh van:8					Anh van:4					Anh van:7					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:41					So bao danh:42					So bao danh:43					
+Anh:Nguyen Thi     Dung   			Chi:Doan Thuy      Trang  			Chi:Hoang Van      Hoa    
+Toan:5					Toan:5.5						Toan:9	
+Van:7						Van:6.5						Van:7						
+Anh van:7					Anh van:8					Anh van:10					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:43					So bao danh:44					So bao danh:45					
+Chi:Hoang Van      Hoa    			Anh:Nguyen Van     Tien   			Chi:Du Thi Lieu    Dung   
+Toan:9					Toan:6						Toan:8	
+Van:7						Van:6						Van:5						
+Anh van:10					Anh van:9					Anh van:7					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:45					So bao danh:46					So bao danh:47					
+Chi:Du Thi Lieu    Dung   			Anh:Vu Kieu        Oanh   			Anh:Nguyen Trong   Nghiep 
+Toan:8					Toan:5.5						Toan:9.5
+Van:5						Van:5						Van:8						
+Anh van:7					Anh van:4					Anh van:10					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:47					So bao danh:48					So bao danh:49					
+Anh:Nguyen Trong   Nghiep 			Chi:Nguyen Thuy    Huong  			Anh:Bui Van        Hung   
+Toan:9.5					Toan:10						Toan:6	
+Van:8						Van:8						Van:7						
+Anh van:10					Anh van:10					Anh van:5.5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:49					So bao danh:50					So bao danh:51					
+Anh:Bui Van        Hung   			Chi:Ly Cong        Duy    			Anh:Le Thi         Ly     
+Toan:6					Toan:10						Toan:8	
+Van:7						Van:8.5						Van:6						
+Anh van:5.5					Anh van:9.5					Anh van:9					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:51					So bao danh:52					So bao danh:53					
+Anh:Le Thi         Ly     			Chi:Nguyen Lien    Phuong 			Anh:Hoang Thi      Thuan  
+Toan:8					Toan:4.5						Toan:9	
+Van:6						Van:5.5						Van:8.5						
+Anh van:9					Anh van:5					Anh van:10					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:53					So bao danh:54					So bao danh:55					
+Anh:Hoang Thi      Thuan  			Chi:To Phuong      Lan    			Chi:Tran Thi       Phuong 
+Toan:9					Toan:6.5						Toan:7.5
+Van:8.5						Van:6.5						Van:4.5						
+Anh van:10					Anh van:4					Anh van:6					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:55					So bao danh:56					So bao danh:57					
+Chi:Tran Thi       Phuong 			Anh:Nguyen Dong    Lan    			Anh:Nguyen Van     Toan   
+Toan:7.5					Toan:7						Toan:9	
+Van:4.5						Van:5.5						Van:6						
+Anh van:6					Anh van:8					Anh van:6.5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:57					So bao danh:58					So bao danh:59					
+Anh:Nguyen Van     Toan   			Chi:Diep Thuy      Phuong 			Anh:Dao Thi        Tue    
+Toan:9					Toan:4						Toan:10	
+Van:6						Van:5.5						Van:8.5						
+Anh van:6.5					Anh van:4					Anh van:9					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:59					So bao danh:60					So bao danh:61					
+Anh:Dao Thi        Tue    			Anh:Tran Thi       Phan   			Anh:Tran Thi       Thuy   
+Toan:10					Toan:5.5						Toan:5	
+Van:8.5						Van:6						Van:5						
+Anh van:9					Anh van:5.5					Anh van:6					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:61					So bao danh:62					So bao danh:63					
+Anh:Tran Thi       Thuy   			Anh:Nguyen Mong    Kieu   			Anh:Duong Thi      Tuoi   
+Toan:5					Toan:6.5						Toan:10	
+Van:5						Van:4						Van:6						
+Anh van:6					Anh van:5.5					Anh van:7					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:63					So bao danh:64					So bao danh:65					
+Anh:Duong Thi      Tuoi   			Anh:Nguyen Thi     Thuy   			Anh:Nguyen Thi     Le     
+Toan:10					Toan:6						Toan:4	
+Van:6						Van:5						Van:6						
+Anh van:7					Anh van:6					Anh van:4.5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:65					So bao danh:66					So bao danh:67					
+Anh:Nguyen Thi     Le     			Chi:Nguyen Thi     Hanh   			Anh:Nguyen Van     Tam    
+Toan:4					Toan:7						Toan:10	
+Van:6						Van:5						Van:9						
+Anh van:4.5					Anh van:3					Anh van:10					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:67					So bao danh:68					So bao danh:69					
+Anh:Nguyen Van     Tam    			Chi:Lam Ngoc       Phuoc  			Anh:Phan Kim       Nga    
+Toan:10					Toan:8						Toan:9	
+Van:9						Van:4						Van:8						
+Anh van:10					Anh van:5					Anh van:8					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:69					So bao danh:70					So bao danh:71					
+Anh:Phan Kim       Nga    			Chi:Huynh Thi      Huong  			Anh:Nguyen Thu     Ha     
+Toan:9					Toan:5.5						Toan:5	
+Van:8						Van:5.5						Van:9						
+Anh van:8					Anh van:7.5					Anh van:7					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:71					So bao danh:72					So bao danh:73					
+Anh:Nguyen Thu     Ha     			Chi:Nguyen Van     Dung   			Anh:Tran Tham      Tuoi   
+Toan:5					Toan:6.5						Toan:6	
+Van:9						Van:5						Van:7.5						
+Anh van:7					Anh van:8					Anh van:8					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:73					So bao danh:74					So bao danh:75					
+Anh:Tran Tham      Tuoi   			Anh:Duong Cong     Bang   			Anh:Le Trung       Kien   
+Toan:6					Toan:10						Toan:8.5
+Van:7.5						Van:6						Van:6.5						
+Anh van:8					Anh van:8					Anh van:6					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:75					So bao danh:76					So bao danh:77					
+Anh:Le Trung       Kien   			Chi:Nguyen Van     Nghiep 			Anh:Nguyen Van     Minh   
+Toan:8.5					Toan:8						Toan:8	
+Van:6.5						Van:7						Van:7.5						
+Anh van:6					Anh van:8.5					Anh van:9					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:77					So bao danh:78					So bao danh:79					
+Anh:Nguyen Van     Minh   			Anh:Ho Duong       Thanh  			Chi:Quach Kieu     Mai    
+Toan:8					Toan:4.5						Toan:10	
+Van:7.5						Van:6.5						Van:9						
+Anh van:9					Anh van:4					Anh van:10					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:79					So bao danh:80					So bao danh:81					
+Chi:Quach Kieu     Mai    			Anh:Dao Thi        Phuong 			Anh:Tran Thi Ngoc  Han    
+Toan:10					Toan:3.5						Toan:6	
+Van:9						Van:4						Van:6.5						
+Anh van:10					Anh van:5.5					Anh van:4.5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:81					So bao danh:82					So bao danh:83					
+Anh:Tran Thi Ngoc  Han    			Chi:Tran Tuyet     Anh    			Anh:Nguyen Cam     Huong  
+Toan:6					Toan:8						Toan:5	
+Van:6.5						Van:6						Van:8.5						
+Anh van:4.5					Anh van:4					Anh van:5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:83					So bao danh:84					So bao danh:85					
+Anh:Nguyen Cam     Huong  			Chi:Nguyen Ngoc    Suong  			Anh:Nguyen Van     Loi    
+Toan:5					Toan:10						Toan:7	
+Van:8.5						Van:7						Van:7						
+Anh van:5					Anh van:9					Anh van:10					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:85					So bao danh:86					So bao danh:87					
+Anh:Nguyen Van     Loi    			Anh:Nguyen Duc     Thang  			Chi:Bui Thi        Hue    
+Toan:7					Toan:5.5						Toan:8	
+Van:7						Van:6.5						Van:4.5						
+Anh van:10					Anh van:6.5					Anh van:8					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:87					So bao danh:88					So bao danh:89					
+Chi:Bui Thi        Hue    			Anh:Pham Thi       Mai    			Anh:Nguyen Thi     Huong  
+Toan:8					Toan:5						Toan:4.5
+Van:4.5						Van:5.5						Van:6						
+Anh van:8					Anh van:6					Anh van:5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:89					So bao danh:90					So bao danh:91					
+Anh:Nguyen Thi     Huong  			Anh:Pham Van       Trang  			Anh:Tran Thuy      Tien   
+Toan:4.5					Toan:4.5						Toan:6	
+Van:6						Van:6.5						Van:5						
+Anh van:5					Anh van:4.5					Anh van:6.5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:91					So bao danh:92					So bao danh:93					
+Anh:Tran Thuy      Tien   			Chi:Nguyen Minh    Dan    			Chi:Do Thi         Thao   
+Toan:6					Toan:6						Toan:4	
+Van:5						Van:5.5						Van:5						
+Anh van:6.5					Anh van:6.5					Anh van:4					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:93					So bao danh:94					So bao danh:95					
+Chi:Do Thi         Thao   			Chi:Phan Thi       Anh    			Chi:Dang Kim       Anh    
+Toan:4					Toan:6						Toan:5	
+Van:5						Van:4.5						Van:5.5						
+Anh van:4					Anh van:3					Anh van:6					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:95					So bao danh:96					So bao danh:97					
+Chi:Dang Kim       Anh    			Anh:Le Tien        Dat    			Anh:Pham Hong      Tuyet  
+Toan:5					Toan:6						Toan:8	
+Van:5.5						Van:6.5						Van:6						
+Anh van:6					Anh van:5.5					Anh van:7					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:97					So bao danh:98					So bao danh:99					
+Anh:Pham Hong      Tuyet  			Anh:Pham Thi       Chien  			Anh:Nguyen Thi     Binh   
+Toan:8					Toan:7						Toan:8	
+Van:6						Van:6						Van:7						
+Anh van:7					Anh van:6					Anh van:7					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:99					So bao danh:100					So bao danh:101					
+Anh:Nguyen Thi     Binh   			Chi:Tran Van       Viet   			Chi:Nguyen Bui     Hoa    
+Toan:8					Toan:6.5						Toan:7	
+Van:7						Van:5						Van:7						
+Anh van:7					Anh van:3					Anh van:8.5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:101					So bao danh:102					So bao danh:103					
+Chi:Nguyen Bui     Hoa    			Anh:Ho Cam         Ly     			Chi:Huynh Van      Khoa   
+Toan:7					Toan:7						Toan:6.5
+Van:7						Van:6.5						Van:4						
+Anh van:8.5					Anh van:6					Anh van:4					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:103					So bao danh:104					So bao danh:105					
+Chi:Huynh Van      Khoa   			Chi:Huynh Minh     Hieu   			Anh:Huynh Thanh    Viet   
+Toan:6.5					Toan:6.5						Toan:4	
+Van:4						Van:7						Van:6.5						
+Anh van:4					Anh van:6.5					Anh van:3.5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:105					So bao danh:106					So bao danh:107					
+Anh:Huynh Thanh    Viet   			Anh:Le Hong        Nhung  			Anh:Nguyen Thi     Van    
+Toan:4					Toan:5						Toan:5.4
+Van:6.5						Van:6						Van:5.7						
+Anh van:3.5					Anh van:6					Anh van:4.9					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:107					So bao danh:108					So bao danh:109					
+Anh:Nguyen Thi     Van    			Anh:Tran Van       Quang  			Chi:Dang Minh      Quan   
+Toan:5.4					Toan:5						Toan:7	
+Van:5.7						Van:5						Van:7						
+Anh van:4.9					Anh van:4.5					Anh van:8					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:109					So bao danh:110					So bao danh:111					
+Chi:Dang Minh      Quan   			Anh:Le Thanh       Khoa   			Anh:Nguyen Tan     Tai    
+Toan:7					Toan:5						Toan:8	
+Van:7						Van:6.8						Van:7						
+Anh van:8					Anh van:5.2					Anh van:8					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:111					So bao danh:112					So bao danh:113					
+Anh:Nguyen Tan     Tai    			Chi:Do Thi         Thuy   			Anh:Vu Van         An     
+Toan:8					Toan:5.5						Toan:6	
+Van:7						Van:5.5						Van:3						
+Anh van:8					Anh van:7.5					Anh van:5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:113					So bao danh:114					So bao danh:115					
+Anh:Vu Van         An     			Chi:Nguyen Van     Thanh  			Chi:Bui Van        Thanh  
+Toan:6					Toan:10						Toan:5.5
+Van:3						Van:10						Van:7						
+Anh van:5					Anh van:10					Anh van:5.5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:115					So bao danh:116					So bao danh:117					
+Chi:Bui Van        Thanh  			Anh:Do Phuong      Nam    			Chi:Truong Kieu    Oanh   
+Toan:5.5					Toan:7.5						Toan:10	
+Van:7						Van:7						Van:9						
+Anh van:5.5					Anh van:10					Anh van:9.5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:117					So bao danh:118					So bao danh:119					
+Chi:Truong Kieu    Oanh   			Anh:Tran My        Thanh  			Anh:Pham Van       Hoang  
+Toan:10					Toan:4						Toan:4.5
+Van:9						Van:4						Van:5.5						
+Anh van:9.5					Anh van:4.5					Anh van:6.5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:119					So bao danh:120					So bao danh:121					
+Anh:Pham Van       Hoang  			Anh:Nguyen Thi     Nhung  			Chi:Nguyen Thi     Lan    
+Toan:4.5					Toan:5						Toan:10	
+Van:5.5						Van:6						Van:8.5						
+Anh van:6.5					Anh van:6					Anh van:9					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:121					So bao danh:122					So bao danh:123					
+Chi:Nguyen Thi     Lan    			Chi:Nguyen Hong    Hoa    			Chi:Tran van       Phuong 
+Toan:10					Toan:6.5						Toan:4	
+Van:8.5						Van:6.5						Van:7.5						
+Anh van:9					Anh van:6					Anh van:5.5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:123					So bao danh:124					So bao danh:125					
+Chi:Tran van       Phuong 			Chi:Tran Van       Minh   			Anh:Vo Quoc        Vuong  
+Toan:4					Toan:5.5						Toan:9	
+Van:7.5						Van:5						Van:7						
+Anh van:5.5					Anh van:5					Anh van:8					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:125					So bao danh:126					So bao danh:127					
+Anh:Vo Quoc        Vuong  			Anh:Nguyen Thanh   Trung  			Anh:Nguyen Thi     Thao   
+Toan:9					Toan:4.5						Toan:5.5
+Van:7						Van:6.5						Van:4						
+Anh van:8					Anh van:4.5					Anh van:5.5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:127					So bao danh:128					So bao danh:129					
+Anh:Nguyen Thi     Thao   			Chi:Vo Kim         Yen    			Anh:Tran Van       Son    
+Toan:5.5					Toan:7						Toan:8	
+Van:4						Van:4						Van:5						
+Anh van:5.5					Anh van:8					Anh van:5.5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:129					So bao danh:130					So bao danh:131					
+Anh:Tran Van       Son    			Anh:Nguyen Van     Hai    			Anh:Nguyen Thanh   Lam    
+Toan:8					Toan:5						Toan:4	
+Van:5						Van:5						Van:4						
+Anh van:5.5					Anh van:5					Anh van:5.5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:131					So bao danh:132					So bao danh:133					
+Anh:Nguyen Thanh   Lam    			Anh:Pham Lan       Anh    			Chi:Nguyen Van     Doan   
+Toan:4					Toan:4.5						Toan:9	
+Van:4						Van:4.5						Van:8						
+Anh van:5.5					Anh van:6.5					Anh van:7.5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:133					So bao danh:134					So bao danh:135					
+Chi:Nguyen Van     Doan   			Chi:Le Hong        Hoa    			Anh:Nguyen Van     Ngan   
+Toan:9					Toan:10						Toan:10	
+Van:8						Van:8						Van:8.5						
+Anh van:7.5					Anh van:9					Anh van:9					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:135					So bao danh:136					So bao danh:137					
+Anh:Nguyen Van     Ngan   			Chi:Pham Hong      Chung  			Anh:Nguyen Hong    Hoa    
+Toan:10					Toan:6						Toan:5	
+Van:8.5						Van:4						Van:6						
+Anh van:9					Anh van:5					Anh van:5.5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:137					So bao danh:138					So bao danh:139					
+Anh:Nguyen Hong    Hoa    			Chi:Le Hong        Hanh   			Anh:Le Anh         Thu    
+Toan:5					Toan:6						Toan:6.5
+Van:6						Van:5.5						Van:9						
+Anh van:5.5					Anh van:6.5					Anh van:6.5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:139					So bao danh:140					So bao danh:141					
+Anh:Le Anh         Thu    			Anh:Tran Le        Nga    			Anh:Nguyen Thi     Huong  
+Toan:6.5					Toan:6.5						Toan:9	
+Van:9						Van:5.5						Van:7						
+Anh van:6.5					Anh van:6.5					Anh van:8					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:141					So bao danh:142					So bao danh:143					
+Anh:Nguyen Thi     Huong  			Chi:Vuong Cong     Hon    			Chi:Ta Ngoc        Dieu   
+Toan:9					Toan:6						Toan:3.5
+Van:7						Van:7						Van:5.5						
+Anh van:8					Anh van:5					Anh van:6					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:143					So bao danh:144					So bao danh:145					
+Chi:Ta Ngoc        Dieu   			Chi:Nguyen Duc     Hien   			Anh:Nguyen Thanh   Hai    
+Toan:3.5					Toan:9						Toan:3	
+Van:5.5						Van:6						Van:5						
+Anh van:6					Anh van:8					Anh van:4					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:145					So bao danh:146					So bao danh:147					
+Anh:Nguyen Thanh   Hai    			Anh:Dao Thanh      Xuan   			Anh:Mai Ngoc       Bich   
+Toan:3					Toan:5						Toan:10	
+Van:5						Van:6.5						Van:8						
+Anh van:4					Anh van:6.5					Anh van:10					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:147					So bao danh:148					So bao danh:149					
+Anh:Mai Ngoc       Bich   			Anh:Pham Thu       Han    			Anh:Phan Huy       Hung   
+Toan:10					Toan:9.5						Toan:9	
+Van:8						Van:8.5						Van:8.5						
+Anh van:10					Anh van:9					Anh van:10					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:149					So bao danh:150					So bao danh:151					
+Anh:Phan Huy       Hung   			Anh:Nguyen Phuoc   Lam    			Anh:Dao Minh       Than   
+Toan:9					Toan:8						Toan:5	
+Van:8.5						Van:9						Van:5						
+Anh van:10					Anh van:6					Anh van:6					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:151					So bao danh:152					So bao danh:153					
+Anh:Dao Minh       Than   			Anh:Le Van         Dung   			Anh:Tran Viet      Hong   
+Toan:5					Toan:10						Toan:7.5
+Van:5						Van:7						Van:6						
+Anh van:6					Anh van:7					Anh van:8					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:153					So bao danh:154					So bao danh:155					
+Anh:Tran Viet      Hong   			Anh:Nguyen Thanh   Hao    			Chi:Nguyen Kim     Loan   
+Toan:7.5					Toan:4						Toan:7	
+Van:6						Van:5.5						Van:5.5						
+Anh van:8					Anh van:7					Anh van:3.5					
+Tong diem:0					Tong diem:3					Tong diem:24					
+Xep loai:					Xep loai:Trượt					Xep loai:Giỏi				
+
+GIAY BAO DIEM					GIAY BAO DIEM					
+So bao danh:155					So bao danh:156					
+Chi:Nguyen Kim     Loan   			Chi:Nguyen Cong    Truong 			
+Toan:7					Toan:4	
+Van:5.5						Van:7.5						
+Anh van:3.5					Anh van:5					
+Tong diem:0					Tong diem:3					
+Xep loai:					Xep loai:Trượt				
+

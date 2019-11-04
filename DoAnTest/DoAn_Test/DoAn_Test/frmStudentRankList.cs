@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -37,7 +38,14 @@ namespace DoAn_Test
             {
                 textBox1.Text = string.Join(Environment.NewLine, datas);
             }
+            using (StreamWriter sw = new StreamWriter("Danhsachhocsinhkhagioi.txt"))
+            {
 
+                foreach (string s in datas)
+                {
+                    sw.WriteLine(s);
+                }
+            }
         }
 
        

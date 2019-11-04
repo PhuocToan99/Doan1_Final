@@ -1,0 +1,6 @@
+118	Tran My        	Thanh  	Nam	07/10/1981	  4	4	4.5	14.5	 Trượt	 1
+10	Tran Minh      	Nguyet 	Nam	07/10/1981	  4.5	4	4	14.5	 Trượt	 1
+145	Nguyen Thanh   	Hai    	Nam	07/10/1981	  3	5	4	14	 Trượt	 1
+58	Diep Thuy      	Phuong 	Nữ	07/10/1981	  4	5.5	4	14.5	 Trượt	 2
+93	Do Thi         	Thao   	Nữ	07/10/1981	  4	5	4	14	 Trượt	 2
+40	Pham Thi       	Thu    	Nam	07/10/1981	  4	4	4	13	 Trượt	 2

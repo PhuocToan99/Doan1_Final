@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Báo Điểm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Báo Điểm.Designer.cs">
+      <DependentUpon>Báo Điểm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Danh sách Trượt.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,12 @@
     <Compile Include="LinkListStudent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Thêm thông tin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thêm thông tin.Designer.cs">
+      <DependentUpon>Thêm thông tin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Thông tin sinh viên.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +99,12 @@
     <Compile Include="Tổng Điểm.Designer.cs">
       <DependentUpon>Tổng Điểm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Xóa thông tin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xóa thông tin.Designer.cs">
+      <DependentUpon>Xóa thông tin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Điểm số.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +117,9 @@
     <Compile Include="Đối tượng dự thi.Designer.cs">
       <DependentUpon>Đối tượng dự thi.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Báo Điểm.resx">
+      <DependentUpon>Báo Điểm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Danh sách Trượt.resx">
       <DependentUpon>Danh sách Trượt.cs</DependentUpon>
     </EmbeddedResource>
@@ -117,6 +138,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Thêm thông tin.resx">
+      <DependentUpon>Thêm thông tin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Thông tin sinh viên.resx">
       <DependentUpon>Thông tin sinh viên.cs</DependentUpon>
     </EmbeddedResource>
@@ -125,6 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Tổng Điểm.resx">
       <DependentUpon>Tổng Điểm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xóa thông tin.resx">
+      <DependentUpon>Xóa thông tin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Điểm số.resx">
       <DependentUpon>Điểm số.cs</DependentUpon>
