@@ -83,9 +83,10 @@
             // 
             // btnInsertAfter
             // 
-            this.btnInsertAfter.Location = new System.Drawing.Point(449, 265);
+            this.btnInsertAfter.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInsertAfter.Location = new System.Drawing.Point(489, 255);
             this.btnInsertAfter.Name = "btnInsertAfter";
-            this.btnInsertAfter.Size = new System.Drawing.Size(75, 23);
+            this.btnInsertAfter.Size = new System.Drawing.Size(112, 33);
             this.btnInsertAfter.TabIndex = 49;
             this.btnInsertAfter.Text = "Chèn sau";
             this.btnInsertAfter.UseVisualStyleBackColor = true;
@@ -205,9 +206,10 @@
             // 
             // btnAddFront
             // 
-            this.btnAddFront.Location = new System.Drawing.Point(326, 265);
+            this.btnAddFront.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddFront.Location = new System.Drawing.Point(205, 255);
             this.btnAddFront.Name = "btnAddFront";
-            this.btnAddFront.Size = new System.Drawing.Size(75, 23);
+            this.btnAddFront.Size = new System.Drawing.Size(112, 33);
             this.btnAddFront.TabIndex = 33;
             this.btnAddFront.Text = "Chèn trước";
             this.btnAddFront.UseVisualStyleBackColor = true;

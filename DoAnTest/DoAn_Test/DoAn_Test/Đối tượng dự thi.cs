@@ -20,17 +20,23 @@ namespace DoAn_Test
         LinkListFullInfo F = null;
         int count1 = 0, count2 = 0;
         double percent1 = 0, percent2 = 0;
+
+        private void BtnFileout_Click(object sender, EventArgs e)
+        {
+            frmShowInFile frm = new frmShowInFile();
+            frm.source = "DanhSachTheoDoituongDuThi.txt";
+            frm.Show();
+        }
+
         List<string> datas = new List<string>();
+        List<string> output = new List<string>();
         private void BtnShow_Click(object sender, EventArgs e)
         {
             int type = Convert.ToInt32(textBox2.Text);
             LinkListFullInfo p = new LinkListFullInfo();
             F = p.loadfullInfo(F);
-            //count1 = F.count(F);
-            //count2 = 100 - count1;
             count1 = p.total(F, type);
             count2 = p.count(F, type);
-            //percent1 = count2 % count1;
             percent1 = Math.Round(percent1, 2);
             percent2 = 100 - percent1;
             percent2 = Math.Round(percent2, 2);
@@ -58,6 +64,7 @@ namespace DoAn_Test
                 }
             }
 
+            btnFileout.Enabled = true;
         }
     }
 }

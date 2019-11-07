@@ -22,12 +22,11 @@ namespace DoAn_Test
         private void Thủ_Khoa_Load(object sender, EventArgs e)
         {
             LinkListFullInfo temp = new LinkListFullInfo();
-            //F = temp.loadfullInfo(F);
             F = temp.setStGioi(F);
             F = F.MergeSort(F);
             temp = F;
             double max = temp.totalScore;
-            int count = 0,i=0;
+            int count = 0;
             datas = changedatas(F,max,ref count);
 
             foreach (string s in datas)
@@ -72,6 +71,13 @@ namespace DoAn_Test
                 resultstring = resultstring + "\t";
             }
             return resultstring;
+        }
+
+        private void BtnFileout_Click(object sender, EventArgs e)
+        {
+            frmShowInFile frm = new frmShowInFile();
+            frm.source = "Danhsachthukhoa.txt";
+            frm.Show();
         }
     }
 }

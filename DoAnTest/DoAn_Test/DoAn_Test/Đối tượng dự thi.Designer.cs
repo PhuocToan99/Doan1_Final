@@ -43,6 +43,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.btnFileout = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -187,11 +188,24 @@
             this.label12.TabIndex = 32;
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btnFileout
+            // 
+            this.btnFileout.Enabled = false;
+            this.btnFileout.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFileout.Location = new System.Drawing.Point(361, 600);
+            this.btnFileout.Name = "btnFileout";
+            this.btnFileout.Size = new System.Drawing.Size(133, 33);
+            this.btnFileout.TabIndex = 53;
+            this.btnFileout.Text = "Xem file kết quả";
+            this.btnFileout.UseVisualStyleBackColor = true;
+            this.btnFileout.Click += new System.EventHandler(this.BtnFileout_Click);
+            // 
             // frmType
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(890, 597);
+            this.ClientSize = new System.Drawing.Size(890, 645);
+            this.Controls.Add(this.btnFileout);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -231,5 +245,6 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button btnFileout;
     }
 }

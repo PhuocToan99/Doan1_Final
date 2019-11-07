@@ -37,11 +37,6 @@ namespace DoAn_Test
 
                 string[] entries = data.Split(c, StringSplitOptions.RemoveEmptyEntries);
                 LinkListScore p = new LinkListScore();
-                //score.id = entries[0];
-                //score.mathScore = Convert.ToDouble(entries[1]);
-                //score.literatureScore = Convert.ToDouble(entries[2]);
-                //score.englishScore = Convert.ToDouble(entries[3]);
-
                 //Ghi nho cai nay
                 for (int i = 0; i < entries.Length; i++)
                 {

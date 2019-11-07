@@ -48,6 +48,11 @@ namespace DoAn_Test
             }
         }
 
-       
+        private void BtnFileout_Click(object sender, EventArgs e)
+        {
+            frmShowInFile frm = new frmShowInFile();
+            frm.source = "Danhsachhocsinhkhagioi.txt";
+            frm.Show();
+        }
     }
 }

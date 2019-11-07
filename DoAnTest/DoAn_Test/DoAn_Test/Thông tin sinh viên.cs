@@ -31,7 +31,6 @@ namespace DoAn_Test
 
             int ID, type;
             string lastName, name;
-            Boolean sex;
             DateTime birthDate;
             String re;
             int flag;
@@ -51,15 +50,11 @@ namespace DoAn_Test
                 name = data.Substring(26, 7);
                 re = data.Substring(34, 2);
                 flag = Convert.ToInt32(re);
-                //char[] date = data.Substring(35, 10).ToCharArray();
                 string date = data.Substring(35, 10);
-
                 birthDate = DateTime.Parse(date);
-                //student.birthDate = entries[i + 6];
                 type = Convert.ToInt32(data.Substring(46, 1));
                 addStudent(p, ID, lastName, name, flag, birthDate, type);
                 add(ref L, p);
-                //students.Add(student);
 
             }
             return L;

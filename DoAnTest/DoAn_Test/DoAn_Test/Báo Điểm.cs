@@ -166,5 +166,12 @@ namespace DoAn_Test
             else return "Chi:";
 
         }
+
+        private void BtnFileout_Click(object sender, EventArgs e)
+        {
+            frmShowInFile frm = new frmShowInFile();
+            frm.source = "BaoDiem.txt";
+            frm.Show();
+        }
     }
 }

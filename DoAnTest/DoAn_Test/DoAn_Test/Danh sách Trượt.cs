@@ -38,6 +38,14 @@ namespace DoAn_Test
                     sw.WriteLine(s);
                 }
             }
+            btnFileout.Enabled = true;
+        }
+
+        private void BtnFileout_Click(object sender, EventArgs e)
+        {
+            frmShowInFile frm = new frmShowInFile();
+            frm.source = "Danhsachhocsinhtruot.txt";
+            frm.Show();
         }
     }
 }

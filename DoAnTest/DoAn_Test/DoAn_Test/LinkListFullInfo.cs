@@ -12,7 +12,7 @@ namespace DoAn_Test
         public string lastName { get; set; }
         public string name { get; set; }
         public string sex { get; set; }
-        //public int age { get; set; }
+
         public DateTime birthdate { get; set; }
         public double mathScore { get; set; }
         public double literatureScore { get; set; }
@@ -37,10 +37,9 @@ namespace DoAn_Test
             LinkListStudent S = new LinkListStudent();
             S.loadListStudent(S);
             LinkListScore L = new LinkListScore();
-            //LinkListScore s1 = new LinkListScore();
             L.loadListScore(L);
             DateTime temp = DateTime.Now;
-            int ID, type/*, age*/, dut;
+            int ID, type, dut;
             DateTime birthdate;
             string sex;
             string lastName, name, rank;
@@ -66,7 +65,6 @@ namespace DoAn_Test
                 else if (totalScore >= 15 && minScore >= 4 && totalScore <21 && minScore<6) rank = "Trung Bình";
                 else rank = "Trượt";
                 birthdate = S.birthDate;
-                //age = temp.Year - S.birthDate.Year;
                 addFullInfo(p, ID, lastName, name, sex,birthdate, mathScore, literatureScore, englishScore, minScore, totalScore, rank, type);
                 addFull(ref F, p);
                 S = S.Next;
@@ -87,7 +85,6 @@ namespace DoAn_Test
             p.lastName = lastName;
             p.name = name;
             p.sex = sex;
-            //p.age = age;
             p.birthdate = birthdate;
             p.mathScore = mathScore;
             p.literatureScore = literatureScore;
@@ -114,12 +111,9 @@ namespace DoAn_Test
             LinkListStudent S = new LinkListStudent();
             S.loadListStudent(S);
             LinkListScore L = new LinkListScore();
-            //LinkListScore s1 = new LinkListScore();
             L.loadListScore(L);
             DateTime temp = DateTime.Now;
-            LinkListFullInfo stgioi = null;
-            LinkListFullInfo stkha = null;
-            int ID, type/*, age*/, dut;
+            int ID, type, dut;
             DateTime birthdate;
             string sex;
             string lastName, name, rank=null;
@@ -141,22 +135,13 @@ namespace DoAn_Test
                 else dut = 3;
                 totalScore = L.mathScore + L.literatureScore + L.englishScore + dut;
                 birthdate = S.birthDate;
-                //age = temp.Year - S.birthDate.Year;
                 if (totalScore >= 24 && minScore >= 7)
                 {
                     rank = "Giỏi";
 
                     addFullInfo(p, ID, lastName, name, sex, birthdate, mathScore, literatureScore, englishScore, minScore, totalScore, rank, type);
                     addFull(ref F, p);
-                }
-                //if (totalScore >= 21 && minScore >= 6)
-                //{
-                //    rank = "Khá";
-                //    addFullInfo(p, ID, lastName, name, sex, age, mathScore, literatureScore, englishScore, minScore, totalScore, rank, type);
-                //    addFull(ref stkha, p);
-                //}
-                
-               
+                } 
                 S = S.Next;
                 L = L.Next;
             }
@@ -169,15 +154,11 @@ namespace DoAn_Test
             LinkListStudent S = new LinkListStudent();
             S.loadListStudent(S);
             LinkListScore L = new LinkListScore();
-            //LinkListScore s1 = new LinkListScore();
             L.loadListScore(L);
             DateTime temp = DateTime.Now;
-            LinkListFullInfo stgioi = null;
-            LinkListFullInfo stkha = null;
-            int ID, type/*, age*/, dut;
+            int ID, type, dut;
             string sex;
             string lastName, name, rank = null;
-            Boolean flag = false;
             double mathScore, literatureScore, englishScore, totalScore, minScore;
             DateTime birthdate;
             while (S != null && L != null)
@@ -197,23 +178,12 @@ namespace DoAn_Test
                 else dut = 3;
                 totalScore = L.mathScore + L.literatureScore + L.englishScore + dut;
                 birthdate = S.birthDate;
-                //age = temp.Year - S.birthDate.Year;
-                //if (totalScore >= 24 && minScore >= 7)
-                //{
-                //    rank = "Giỏi";
-
-                //    addFullInfo(p, ID, lastName, name, sex, age, mathScore, literatureScore, englishScore, minScore, totalScore, rank, type);
-                //    addFull(ref F, p);
-                //}
-                //if (mathScore == 10 || literatureScore == 10 || englishScore == 10) flag = true;
-                if (totalScore >= 21 && minScore >= 6 && totalScore<24 && minScore<7 /*&& flag==true*/)
+                if (totalScore >= 21 && minScore >= 6 && totalScore<24 && minScore<7)
                 {
                     rank = "Khá";
                     addFullInfo(p, ID, lastName, name, sex, birthdate, mathScore, literatureScore, englishScore, minScore, totalScore, rank, type);
                     addFull(ref F, p);
                 }
-
-                //flag = false;
                 S = S.Next;
                 L = L.Next;
             }
@@ -338,7 +308,7 @@ namespace DoAn_Test
             LinkListScore L = new LinkListScore();
             L.loadListScore(L);
             DateTime temp = DateTime.Now;
-            int ID, type/*, age*/, dut;
+            int ID, type, dut;
             string sex;
             string lastName, name, rank = null;
             double mathScore, literatureScore, englishScore, totalScore, minScore;
@@ -359,7 +329,6 @@ namespace DoAn_Test
                 else if (S.type == 2) dut = 1;
                 else dut = 3;
                 totalScore = L.mathScore + L.literatureScore + L.englishScore + dut;
-                //age = temp.Year - S.birthDate.Year;
                 birthdate = S.birthDate;
                 if (mathScore==0 || literatureScore==0 || englishScore == 0)
                 {
@@ -441,19 +410,13 @@ namespace DoAn_Test
             LinkListScore L = new LinkListScore();
             L.loadListScore(L);
             DateTime temp = DateTime.Now;
-            int ID, typeset, dut;
+            int typeset, dut;
             DateTime birthdate;
-            Boolean sex;
-            string lastName, name, rank = null;
+            string rank = null;
             int count = 0;
             double mathScore, literatureScore, englishScore, totalScore, minScore;
             while (S != null && L != null)
             {
-                //LinkListFullInfo p = new LinkListFullInfo();
-                //ID = S.ID;
-                //lastName = S.lastName;
-                //name = S.name;
-                //sex = S.sex;
                 typeset = S.type;
                 mathScore = L.mathScore;
                 literatureScore = L.literatureScore;
@@ -463,7 +426,6 @@ namespace DoAn_Test
                 else if (S.type == 2) dut = 1;
                 else dut = 3;
                 totalScore = L.mathScore + L.literatureScore + L.englishScore + dut;
-                //age = temp.Year - S.birthDate.Year;
                 birthdate = S.birthDate;
                 if (mathScore == 0 || literatureScore == 0 || englishScore == 0)
                 {
@@ -475,8 +437,6 @@ namespace DoAn_Test
                 if (totalScore < 15 || minScore < 4)
                 {
                     rank = "Trượt";
-                    //addFullInfo(p, ID, lastName, name, sex, age, mathScore, literatureScore, englishScore, minScore, totalScore, rank, type);
-                    //addFull(ref F, p);
                     if (typeset == type)
                     {
                         count++;
@@ -509,10 +469,9 @@ namespace DoAn_Test
             LinkListStudent S = new LinkListStudent();
             S.loadListStudent(S);
             LinkListScore L = new LinkListScore();
-            //LinkListScore s1 = new LinkListScore();
             L.loadListScore(L);
             DateTime temp = DateTime.Now;
-            int ID, type1, age, dut;
+            int ID, type1, dut;
             string sex;
             string lastName, name, rank = null;
             DateTime birthdate;
@@ -546,17 +505,16 @@ namespace DoAn_Test
                     if (totalScore >= 24 && minScore >= 7) rank = "Giỏi";
                     if (totalScore >= 21 && totalScore < 24)
                     {
-                        if (/*minScore < 7 &&*/ minScore >= 6)
+                        if ( minScore >= 6)
                             rank = "Khá";
                     }
                     if (totalScore >= 15 && totalScore < 21)
                     {
-                        if (minScore >= 4 /*&& minScore < 6*/)
+                        if (minScore >= 4)
                             rank = "Trung Bình";
 
                     }
                     if (totalScore < 15 || totalScore < 15 && minScore < 4 || minScore < 4) rank = "Trượt";
-                    //age = temp.Year - S.birthDate.Year;
                     addFullInfo(p, ID, lastName, name, sex, birthdate, mathScore, literatureScore, englishScore, minScore, totalScore, rank, type);
                     addFull(ref F, p);
 
