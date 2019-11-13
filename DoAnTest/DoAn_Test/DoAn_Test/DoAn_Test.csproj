@@ -70,6 +70,12 @@
     <Compile Include="frmStudentRankList.Designer.cs">
       <DependentUpon>frmStudentRankList.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inputtxt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inputtxt.Designer.cs">
+      <DependentUpon>Inputtxt.cs</DependentUpon>
+    </Compile>
     <Compile Include="Kết Quả.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +140,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmStudentRankList.resx">
       <DependentUpon>frmStudentRankList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inputtxt.resx">
+      <DependentUpon>Inputtxt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Kết Quả.resx">
       <DependentUpon>Kết Quả.cs</DependentUpon>

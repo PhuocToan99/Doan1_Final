@@ -20,7 +20,6 @@ C:\Users\darkphantom\Desktop\Doan1_Final\DoAnTest\DoAn_Test\DoAn_Test\obj\Debug\
 C:\Users\darkphantom\Desktop\Doan1_Final\DoAnTest\DoAn_Test\DoAn_Test\obj\Debug\DoAn_Test.frmFullInfo.resources
 C:\Users\darkphantom\Desktop\Doan1_Final\DoAnTest\DoAn_Test\DoAn_Test\obj\Debug\DoAn_Test.frmScore.resources
 C:\Users\darkphantom\Desktop\Doan1_Final\DoAnTest\DoAn_Test\DoAn_Test\obj\Debug\DoAn_Test.csproj.GenerateResource.cache
-C:\Users\darkphantom\Desktop\Doan1_Final\DoAnTest\DoAn_Test\DoAn_Test\obj\Debug\DoAn_Test.csproj.CoreCompileInputs.cache
 C:\Users\darkphantom\Desktop\Doan1_Final\DoAnTest\DoAn_Test\DoAn_Test\obj\Debug\DoAn_Test.exe
 C:\Users\darkphantom\Desktop\Doan1_Final\DoAnTest\DoAn_Test\DoAn_Test\obj\Debug\DoAn_Test.pdb
 C:\Users\darkphantom\Desktop\Doan1_Final\DoAnTest\DoAn_Test\DoAn_Test\obj\Debug\DoAn_Test.frmStudentRankList.resources
@@ -31,3 +30,4 @@ C:\Users\darkphantom\Desktop\Doan1_Final\DoAnTest\DoAn_Test\DoAn_Test\obj\Debug\
 C:\Users\darkphantom\Desktop\Doan1_Final\DoAnTest\DoAn_Test\DoAn_Test\obj\Debug\DoAn_Test.frmDelete.resources
 C:\Users\darkphantom\Desktop\Doan1_Final\DoAnTest\DoAn_Test\DoAn_Test\obj\Debug\DoAn_Test.frmResult.resources
 C:\Users\darkphantom\Desktop\Doan1_Final\DoAnTest\DoAn_Test\DoAn_Test\obj\Debug\DoAn_Test.frmShowInFile.resources
+C:\Users\darkphantom\Desktop\Doan1_Final\DoAnTest\DoAn_Test\DoAn_Test\obj\Debug\DoAn_Test.frmFile.resources

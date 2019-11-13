@@ -38,14 +38,14 @@
             this.txtShow.Multiline = true;
             this.txtShow.Name = "txtShow";
             this.txtShow.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txtShow.Size = new System.Drawing.Size(818, 451);
+            this.txtShow.Size = new System.Drawing.Size(887, 451);
             this.txtShow.TabIndex = 0;
             // 
             // frmShowInFile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(819, 450);
+            this.ClientSize = new System.Drawing.Size(888, 450);
             this.Controls.Add(this.txtShow);
             this.IsMdiContainer = true;
             this.Name = "frmShowInFile";

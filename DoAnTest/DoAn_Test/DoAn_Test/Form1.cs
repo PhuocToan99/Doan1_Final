@@ -43,6 +43,12 @@ namespace DoAn_Test
             frmDelete frm = new frmDelete();
             frm.Show();
         }
+
+        private void btnShowFile_Click(object sender, EventArgs e)
+        {
+            frmFile frm = new frmFile();
+            frm.Show();
+        }
     }
   
 }

@@ -38,12 +38,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.btnShowFile = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnStudentInfo
             // 
             this.btnStudentInfo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnStudentInfo.BackgroundImage")));
-            this.btnStudentInfo.Location = new System.Drawing.Point(177, 106);
+            this.btnStudentInfo.Location = new System.Drawing.Point(327, 495);
             this.btnStudentInfo.Name = "btnStudentInfo";
             this.btnStudentInfo.Size = new System.Drawing.Size(129, 127);
             this.btnStudentInfo.TabIndex = 0;
@@ -103,7 +105,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(117, 456);
+            this.label3.Location = new System.Drawing.Point(99, 456);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(271, 25);
             this.label3.TabIndex = 7;
@@ -129,11 +131,33 @@
             this.label4.TabIndex = 10;
             this.label4.Text = "Xóa thông tin sinh viên";
             // 
+            // btnShowFile
+            // 
+            this.btnShowFile.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnShowFile.BackgroundImage")));
+            this.btnShowFile.Location = new System.Drawing.Point(177, 106);
+            this.btnShowFile.Name = "btnShowFile";
+            this.btnShowFile.Size = new System.Drawing.Size(129, 127);
+            this.btnShowFile.TabIndex = 12;
+            this.btnShowFile.UseVisualStyleBackColor = true;
+            this.btnShowFile.Click += new System.EventHandler(this.btnShowFile_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(245, 636);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(287, 25);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "Xem thông tin file đầu vào";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 518);
+            this.ClientSize = new System.Drawing.Size(800, 670);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.btnShowFile);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
@@ -162,6 +186,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnShowFile;
+        private System.Windows.Forms.Label label5;
     }
 }
 

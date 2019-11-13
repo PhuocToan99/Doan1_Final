@@ -21,61 +21,61 @@ namespace DoAn_Test
         List<string> datas = new List<string>();
         private void BtnAddFront_Click(object sender, EventArgs e)
         {
-            LinkListStudent temp = new LinkListStudent();
-            F = temp.loadListStudent(F);
-            LinkListStudent p = new LinkListStudent();
-            int ID = Convert.ToInt32(txtID.Text);
-            string lastName = txtLastName.Text;
-            string name = txtName.Text;
-            string sex = txtSex.Text;
-            int type = Convert.ToInt32(txtType.Text);
-            DateTime birthDate1 = dateTimePicker1.Value;
+                LinkListStudent temp = new LinkListStudent();
+                F = temp.loadListStudent(F);
+                LinkListStudent p = new LinkListStudent();
+                int ID = Convert.ToInt32(txtID.Text);
+                string lastName = txtLastName.Text;
+                string name = txtName.Text;
+                string sex = txtSex.Text;
+                int type = Convert.ToInt32(txtType.Text);
+                DateTime birthDate1 = dateTimePicker1.Value;
 
-            LinkListStudent L = null;
-            while (F != null && F.ID < ID)
-            {
-                LinkListStudent k = new LinkListStudent { ID = F.ID, name = F.name, lastName = F.lastName, sex = F.sex, birthDate = F.birthDate, type = F.type };
-                temp.addst(ref L, k);
-                F = F.Next;
-            }
-            //temp.addst(ref L, F);
-            temp.addStudent1(p, ID, lastName, name, sex, birthDate1, type);
-            temp.addst(ref L, p);
-            while (F != null)
-            {
-                LinkListStudent k = new LinkListStudent { ID = F.ID + 1, name = F.name, lastName = F.lastName, sex = F.sex, birthDate = F.birthDate, type = F.type };
-                temp.addst(ref L, k);
-                F = F.Next;
-            }
+                LinkListStudent L = null;
+                while (F != null && F.ID < ID)
+                {
+                    LinkListStudent k = new LinkListStudent { ID = F.ID, name = F.name, lastName = F.lastName, sex = F.sex, birthDate = F.birthDate, type = F.type };
+                    temp.addst(ref L, k);
+                    F = F.Next;
+                }
+                //temp.addst(ref L, F);
+                temp.addStudent1(p, ID, lastName, name, sex, birthDate1, type);
+                temp.addst(ref L, p);
+                while (F != null)
+                {
+                    LinkListStudent k = new LinkListStudent { ID = F.ID + 1, name = F.name, lastName = F.lastName, sex = F.sex, birthDate = F.birthDate, type = F.type };
+                    temp.addst(ref L, k);
+                    F = F.Next;
+                }
 
-            LinkListScore tempsc = new LinkListScore();
-            sc = tempsc.loadListScore(sc);
-            LinkListScore P = new LinkListScore();
-            int id = Convert.ToInt32(txtID.Text);
-            double mathScore = Convert.ToDouble(txtMathScore.Text);
-            double literatureScore = Convert.ToDouble(txtLiteratureScore.Text);
-            double englishScore = Convert.ToDouble(txtEnglishScore.Text);
-            LinkListScore Lsc = null;
-            while (sc != null && sc.id < id)
-            {
-                LinkListScore k = new LinkListScore { id = sc.id, mathScore = sc.mathScore, literatureScore = sc.literatureScore, englishScore = sc.englishScore };
-                sc.addS(ref Lsc, k);
-                sc = sc.Next;
-            }
-            //temp.addst(ref L, F);
-            sc.addScore(P, id, mathScore, literatureScore, englishScore);
-            sc.addS(ref Lsc, P);
-            while (sc != null)
-            {
-                LinkListScore k = new LinkListScore { id = (sc.id) + 1, mathScore = sc.mathScore, literatureScore = sc.literatureScore, englishScore = sc.englishScore };
-                sc.addS(ref Lsc, k);
-                sc = sc.Next;
-            }
-            datas = Change(L, Lsc);
-            foreach (string s in datas)
-            {
-                txtShow.Text = string.Join(Environment.NewLine, datas);
-            }
+                LinkListScore tempsc = new LinkListScore();
+                sc = tempsc.loadListScore(sc);
+                LinkListScore P = new LinkListScore();
+                int id = Convert.ToInt32(txtID.Text);
+                double mathScore = Convert.ToDouble(txtMathScore.Text);
+                double literatureScore = Convert.ToDouble(txtLiteratureScore.Text);
+                double englishScore = Convert.ToDouble(txtEnglishScore.Text);
+                LinkListScore Lsc = null;
+                while (sc != null && sc.id < id)
+                {
+                    LinkListScore k = new LinkListScore { id = sc.id, mathScore = sc.mathScore, literatureScore = sc.literatureScore, englishScore = sc.englishScore };
+                    sc.addS(ref Lsc, k);
+                    sc = sc.Next;
+                }
+                //temp.addst(ref L, F);
+                sc.addScore(P, id, mathScore, literatureScore, englishScore);
+                sc.addS(ref Lsc, P);
+                while (sc != null)
+                {
+                    LinkListScore k = new LinkListScore { id = (sc.id) + 1, mathScore = sc.mathScore, literatureScore = sc.literatureScore, englishScore = sc.englishScore };
+                    sc.addS(ref Lsc, k);
+                    sc = sc.Next;
+                }
+                datas = Change(L, Lsc);
+                foreach (string s in datas)
+                {
+                    txtShow.Text = string.Join(Environment.NewLine, datas);
+                }
         }
         private static List<string> Change(LinkListStudent s, LinkListScore sc)
         {
@@ -112,61 +112,66 @@ namespace DoAn_Test
 
         private void BtnInsertAfter_Click(object sender, EventArgs e)
         {
-            LinkListStudent temp = new LinkListStudent();
-            F = temp.loadListStudent(F);
-            LinkListStudent p = new LinkListStudent();
-            int ID = Convert.ToInt32(txtID.Text);
-            string lastName = txtLastName.Text;
-            string name = txtName.Text;
-            string sex = txtSex.Text;
-            int type = Convert.ToInt32(txtType.Text);
-            DateTime birthDate1 = dateTimePicker1.Value;
+                LinkListStudent temp = new LinkListStudent();
+                F = temp.loadListStudent(F);
+                LinkListStudent p = new LinkListStudent();
+                int ID = Convert.ToInt32(txtID.Text);
+                string lastName = txtLastName.Text;
+                string name = txtName.Text;
+                string sex = txtSex.Text;
+                int type = Convert.ToInt32(txtType.Text);
+                DateTime birthDate1 = dateTimePicker1.Value;
 
-            LinkListStudent L = null;
-            while (F != null && F.ID <= ID)
-            {
-                LinkListStudent k = new LinkListStudent { ID = F.ID, name = F.name, lastName = F.lastName, sex = F.sex, birthDate = F.birthDate, type = F.type };
-                temp.addst(ref L, k);
-                F = F.Next;
-            }
-            //temp.addst(ref L, F);
-            temp.addStudent1(p, ID + 1, lastName, name, sex, birthDate1, type);
-            temp.addst(ref L, p);
-            while (F != null)
-            {
-                LinkListStudent k = new LinkListStudent { ID = F.ID + 1, name = F.name, lastName = F.lastName, sex = F.sex, birthDate = F.birthDate, type = F.type };
-                temp.addst(ref L, k);
-                F = F.Next;
-            }
+                LinkListStudent L = null;
+                while (F != null && F.ID <= ID)
+                {
+                    LinkListStudent k = new LinkListStudent { ID = F.ID, name = F.name, lastName = F.lastName, sex = F.sex, birthDate = F.birthDate, type = F.type };
+                    temp.addst(ref L, k);
+                    F = F.Next;
+                }
+                //temp.addst(ref L, F);
+                temp.addStudent1(p, ID + 1, lastName, name, sex, birthDate1, type);
+                temp.addst(ref L, p);
+                while (F != null)
+                {
+                    LinkListStudent k = new LinkListStudent { ID = F.ID + 1, name = F.name, lastName = F.lastName, sex = F.sex, birthDate = F.birthDate, type = F.type };
+                    temp.addst(ref L, k);
+                    F = F.Next;
+                }
 
-            LinkListScore tempsc = new LinkListScore();
-            sc = tempsc.loadListScore(sc);
-            LinkListScore P = new LinkListScore();
-            int id = Convert.ToInt32(txtID.Text);
-            double mathScore = Convert.ToDouble(txtMathScore.Text);
-            double literatureScore = Convert.ToDouble(txtLiteratureScore.Text);
-            double englishScore = Convert.ToDouble(txtEnglishScore.Text);
-            LinkListScore Lsc = null;
-            while (sc != null && sc.id <= id)
-            {
-                LinkListScore k = new LinkListScore { id = sc.id, mathScore = sc.mathScore, literatureScore = sc.literatureScore, englishScore = sc.englishScore };
-                sc.addS(ref Lsc, k);
-                sc = sc.Next;
-            }
-            //temp.addst(ref L, F);
-            sc.addScore(P, id + 1, mathScore, literatureScore, englishScore);
-            sc.addS(ref Lsc, P);
-            while (sc != null)
-            {
-                LinkListScore k = new LinkListScore { id = (sc.id) + 1, mathScore = sc.mathScore, literatureScore = sc.literatureScore, englishScore = sc.englishScore };
-                sc.addS(ref Lsc, k);
-                sc = sc.Next;
-            }
-            datas = Change(L, Lsc);
-            foreach (string s in datas)
-            {
-                txtShow.Text = string.Join(Environment.NewLine, datas);
-            }
+                LinkListScore tempsc = new LinkListScore();
+                sc = tempsc.loadListScore(sc);
+                LinkListScore P = new LinkListScore();
+                int id = Convert.ToInt32(txtID.Text);
+                double mathScore = Convert.ToDouble(txtMathScore.Text);
+                double literatureScore = Convert.ToDouble(txtLiteratureScore.Text);
+                double englishScore = Convert.ToDouble(txtEnglishScore.Text);
+                LinkListScore Lsc = null;
+                while (sc != null && sc.id <= id)
+                {
+                    LinkListScore k = new LinkListScore { id = sc.id, mathScore = sc.mathScore, literatureScore = sc.literatureScore, englishScore = sc.englishScore };
+                    sc.addS(ref Lsc, k);
+                    sc = sc.Next;
+                }
+                //temp.addst(ref L, F);
+                sc.addScore(P, id + 1, mathScore, literatureScore, englishScore);
+                sc.addS(ref Lsc, P);
+                while (sc != null)
+                {
+                    LinkListScore k = new LinkListScore { id = (sc.id) + 1, mathScore = sc.mathScore, literatureScore = sc.literatureScore, englishScore = sc.englishScore };
+                    sc.addS(ref Lsc, k);
+                    sc = sc.Next;
+                }
+                datas = Change(L, Lsc);
+                foreach (string s in datas)
+                {
+                    txtShow.Text = string.Join(Environment.NewLine, datas);
+                }
+        }
+
+        private void frmAdd_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

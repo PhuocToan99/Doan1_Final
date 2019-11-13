@@ -194,5 +194,21 @@ namespace DoAn_Test
                 MessageBox.Show(ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string filePath = "ChiTietDT.txt";
+                StreamReader read = new StreamReader(filePath);
+                txtShow.Text = read.ReadToEnd();
+                string text = read.ReadToEnd();
+                read.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
